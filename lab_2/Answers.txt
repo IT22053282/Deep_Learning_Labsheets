@@ -8,5 +8,6 @@ Question 2: Can you explain the pattern of the accuracy when the hidden nodes in
 
 The model's accuracy is low because it has too few hidden nodes to adequately represent the complexity of the data.
 Accuracy increases as you increase the number of hidden nodes (up to 3–5) because the model can better represent the data.
-Adding more hidden nodes does not significantly increase accuracy after a certain number (in this case, roughly 5) and may even slightly decrease it (perhaps due to overfitting or random initialization effects).
+Adding more hidden nodes does not significantly increase accuracy after a certain number (in this case, roughly 5) and may even slightly 
+decrease it (perhaps due to overfitting or random initialization effects).
 In conclusion, there is an ideal range for hidden nodes: too few underfits, too many that could cause overfitting, or neither.
